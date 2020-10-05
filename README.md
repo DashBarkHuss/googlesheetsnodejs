@@ -2,14 +2,16 @@
 
 ## Steps
 
-1. Go to [Google Sheets API](https://developers.google.com/sheets/api/quickstart/nodejs) and click **Enable the Google Sheets API** to create a new Cloud Platform project in.
+1. Go to [Google Sheets API](https://developers.google.com/sheets/api/quickstart/nodejs) and click **Enable the Google Sheets API** to create a new Cloud Platform project. Follow the instructions:
 
 - #### Notes:
   - For client OAuth pick "Desktop Application"
   - For a callback url I picked 'http://localhost:3000/callback' but it isn't used in this sample project.
   - Download the `credentials.json` file and put it in your working directory (ie: wherever you have index.js/app.js/server.js running).
 
-2. Replace the `spreadsheetId`. You can find your spreadsheet's id in the URL of your spreadsheet.
+The rest of the steps on that page are not necessary. Only **Enable the Google Sheets API**.
+
+1. Replace the `spreadsheetId`. You can find your spreadsheet's id in the URL of your spreadsheet.
 
 ```javascript
     {
