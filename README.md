@@ -11,7 +11,7 @@
 
 The rest of the steps on that page are not necessary. Only **Enable the Google Sheets API**.
 
-1. Replace the `spreadsheetId`. You can find your spreadsheet's id in the URL of your spreadsheet.
+2. In `index.js`, replace the `spreadsheetId`. You can find your spreadsheet's id in the URL of your spreadsheet.
 
 ```javascript
     {
