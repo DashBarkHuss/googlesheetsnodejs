@@ -11,8 +11,7 @@ fs.readFile("credentials.json", (err, content) => {
 });
 
 /**
- * Prints the names and majors of students in a sample spreadsheet:
- * @see https://docs.google.com/spreadsheets/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/edit
+ * Gets values from a spreed sheet
  * @param {google.auth.OAuth2} auth The authenticated Google OAuth client.
  */
 function getValues(auth) {
@@ -39,8 +38,7 @@ function getValues(auth) {
   );
 }
 /**
- * write
- * @see https://docs.google.com/spreadsheets/d/1Jt2ZwT-lDHhcegSJ_T5rdWYZxG88FTKn_N1FVnsTLWQ/edit
+ * writes values to a spreadsheet
  * @param {google.auth.OAuth2} auth The authenticated Google OAuth client.
  */
 function updateValues(auth) {
