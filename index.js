@@ -19,7 +19,7 @@ function getValues(auth) {
   sheets.spreadsheets.values.get(
     {
       spreadsheetId: "1Jt2ZwT-lDHhcegSJ_T5rdWYZxG88FTKn_N1FVnsTLWQ",
-      range: "test!A2:E",
+      range: "test!A1:E",
     },
     (err, res) => {
       console.log("\ngetValues...");
