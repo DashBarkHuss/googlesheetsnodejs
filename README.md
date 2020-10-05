@@ -1,6 +1,6 @@
 ## Steps
 
-1. Click **Enable the Google Sheets API** to create a new Cloud Platform project in [Google Sheets API](https://developers.google.com/sheets/api/quickstart/nodejs).
+1. Go to [Google Sheets API](https://developers.google.com/sheets/api/quickstart/nodejs) and click **Enable the Google Sheets API** to create a new Cloud Platform project in.
 
 - #### Notes:
   - For client OAuth pick "Desktop Application"
