@@ -1,0 +1,16 @@
+{
+  "name": "thirdpartythreshhold",
+  "version": "1.0.0",
+  "description": "- #### Notes:    - For client OAuth pick \"Desktop Application\"   - For a callback url I picked 'http://localhost:3000/callback' but it isn't used in this sample project.   - Download the `credentials.json` file and put it in your working directory (ie: wherever you have index.js/app.js/server.js running).",
+  "main": "index.js",
+  "dependencies": {
+    "googleapis": "^39.2.0",
+    "readline": "^1.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
