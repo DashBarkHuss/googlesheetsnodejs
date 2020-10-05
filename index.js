@@ -52,7 +52,7 @@ function updateValues(auth) {
       range: "test!A1:B2", // TODO: Update placeholder value.
 
       // How the input data should be interpreted.
-      valueInputOption: "USER_ENTERED", // TODO: Update placeholder value.
+      valueInputOption: "USER_ENTERED", // USER_ENTERED parses vs RAW doesn't
       resource: {
         range: "test!A1:B2",
         majorDimension: "ROWS",
